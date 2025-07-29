@@ -1,7 +1,7 @@
-##🧬 Cancer Prediction using Machine Learning
+## 🧬 Cancer Prediction using Machine Learning
 This project showcases a supervised machine learning pipeline developed to predict whether a tumor is malignant or benign, using a real-world cancer dataset. Leveraging classification algorithms, we process and analyze diagnostic data to assist early detection and improve treatment outcomes.
 
-##📌 Problem Statement
+## 📌 Problem Statement
 Timely and accurate detection of cancer is critical in healthcare. In this project, we use machine learning to classify tumors based on diagnostic measurements. The target is to predict the diagnosis label (Malignant or Benign) from features computed from digitized images of breast mass cell nuclei.
 
 ##📊 Dataset
@@ -13,7 +13,7 @@ Features: 30 numerical input features (mean, standard error, and worst of variou
 
 Target: Diagnosis (M = Malignant, B = Benign)
 
-##🧰 Technologies Used
+## 🧰 Technologies Used
 Python
 
 Jupyter Notebook
@@ -24,7 +24,7 @@ Matplotlib, Seaborn – Visualization
 
 Scikit-learn – Preprocessing, Modeling, Evaluation
 
-##🔍 Workflow
+## 🔍 Workflow
 1. Data Preprocessing
 Dropping unnecessary ID columns
 
@@ -61,12 +61,12 @@ Accuracy, Precision, Recall, F1-Score
 
 ROC Curve and AUC Score
 
-##🧠 Best Performing Model
+## 🧠 Best Performing Model
 The Random Forest Classifier gave the highest accuracy and balanced performance on unseen data.
 
 Evaluation metrics showed high sensitivity (recall) for malignant class, critical for medical diagnosis.
 
-##🔮 Future Enhancements
+## 🔮 Future Enhancements
 Hyperparameter tuning with GridSearchCV
 
 Model deployment using Flask or Streamlit
@@ -75,5 +75,5 @@ Deep Learning implementation using Keras/TensorFlow
 
 Integration with medical image data for better prediction
 
-##🤝 Contribution
+## 🤝 Contribution
 Pull requests are welcome. For major changes, open an issue first to discuss what you would like to change.
